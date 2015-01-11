@@ -24,8 +24,8 @@ There are 4 R files in the working directory that were used to create the plots.
 * plot4.R
 
 To run them, open up either RStudio or a R command prompt and type
->source('<filename>')
-where <filename> is one of the R source files.
+>source('FILENAME')
+where FILENAME is one of the R source files.
 
 <b>Constraint</b> The R scripts assume that they are in the same directory as the source data.
 
