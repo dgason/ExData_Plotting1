@@ -10,10 +10,24 @@ the course web site:
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
+
 * <b>Description</b>: Measurements of electric power consumption in
 one household with a one-minute sampling rate over a period of almost
 4 years. Different electrical quantities and some sub-metering values
-are available.
+are available. 
+
+##Instructions
+There are 4 R files in the working directory that were used to create the plots. They are:
+* plot1.R
+* plot2.R
+* plot3.R
+* plot4.R
+
+To run them, open up either RStudio or a R command prompt and type
+>source('<filename>')
+where <filename> is one of the R source files.
+
+<b>Constraint</b> The R scripts assume that they are in the same directory as the source data.
 
 
 The following descriptions of the 9 variables in the dataset are taken
