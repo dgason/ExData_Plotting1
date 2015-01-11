@@ -3,7 +3,7 @@
 # read in the data file, and create plot1
 
 #read the data
-mainData <- read.table("household_power_consumption.txt", header = TRUE, sep = ";")
+mainData <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", , na.strings = c("?", ""))
 
 #convert to date for filtering
 mainData$Date <- as.Date(mainData$Date, "%d/%m/%Y")
