@@ -26,4 +26,4 @@ with(filteredData,
      )
 dev.copy(png, filename = "plot2.png", units = "px", width = 480, height = 480)
 dev.off()
-
+ 
